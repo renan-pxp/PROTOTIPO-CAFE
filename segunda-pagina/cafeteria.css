@@ -1,0 +1,27 @@
+body{
+    background-image:  url(img2/foto.cafepg2.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    }
+    #botao{
+        font-size: 18px;
+        border-radius: 20px;
+        background-color: rgba(155, 12, 12, 0.438);
+        color: gold;
+        text-decoration: white;
+    }
+
+    #nomes{
+        color: rgb(255, 255, 255);
+        background-color: inherit;
+        font-size: 24px;
+        list-style: none;
+    }
+.paragrafo{
+    font-size: 20px;
+}
+#cria{
+    font-size: 30px;
+}

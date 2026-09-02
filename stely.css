@@ -1,0 +1,174 @@
+/* estilos globais*/
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 550;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 19px;
+}
+
+/* Header */
+#inicio {
+    color: #F1E3C6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f0d06ed;
+    padding: 1px;
+}
+
+#tpcoffee {
+    margin-left: 20px;
+}
+
+#logo {
+    width: 88px;
+    height: 88px;
+    align-self: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 32%;
+    left: 47%;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F1E3C6;
+}
+
+/* hero*/
+#ambiente {
+    width: 100%;
+    height: 65vh;
+    display: block;
+    background: linear-gradient(90deg, #2b1d17ed 0%, rgba(43, 29, 23, 0.68) 47%, rgba(43, 29, 23, 0.18) 100%), url("/img/cafeteria.inicio.jpeg") center/cover;
+}
+
+#navegacao {
+    margin-right: 20px;
+}
+
+/* Menu */
+.menu {
+    background-color: #fffefc;
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.menu h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 45px;
+    color: #302b2b;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.menu-card {
+    box-shadow: #292525;    
+    border-radius: 40px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-card h3 {
+    margin-top: 20px;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #302b2b;
+}
+
+/* contato */
+.contato {
+    display: flex;
+    background-color: #F1E3C6;
+    padding: 80px 10%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.contato-texto {
+    width: 45%;
+}
+
+.contato-texto h1 {
+    font-family: Georgia, serif;
+    font-size: 65px;
+    line-height: 0.95;
+    font-weight: normal;
+    margin: 0 0 30px;
+    color: #292525;
+}
+
+.contato-texto span {
+    color: #a9826d;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+label {
+    color: #5c4635;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    background: transparent;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#botao {
+    color: #ccc;
+    background-color: #422406;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* rodapé */
+#fim {
+    display: flex;
+    height: 55px;
+    background-color: #422406;
+}
+.titulo {
+    display: flex;
+    justify-content: flex-start;
+}
+
