@@ -61,7 +61,7 @@ nav ul li a {
     width: 100%;
     height: 65vh;
     display: block;
-    background: linear-gradient(90deg, #2b1d17ed 0%, rgba(43, 29, 23, 0.68) 47%, rgba(43, 29, 23, 0.18) 100%), url("/img/cafeteria.inicio.jpeg") center/cover;
+    background: linear-gradient(90deg, #2b1d17ed 0%, rgba(43, 29, 23, 0.68) 47%, rgba(43, 29, 23, 0.18) 100%), url("./img/cafeteria.inicio.jpeg") center/cover;
 }
 
 #navegacao {
